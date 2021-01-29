@@ -1,10 +1,7 @@
-import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Hero from '../components/hero';
 import About from '../components/about';
 import Interests from '../components/interests';
-import Nav from '../components/nav';
-import Footer from '../components/footer';
 import Project from '../components/projects';
 import Contact from '../components/contact';
 
