@@ -10,23 +10,18 @@ import Contact from '../components/contact';
 
 export default function Home() {
   return (
-    <div className={styles.body}>
-      <div className={styles.container}>
-        <Head>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-        <main className={styles.main}>
-          <Nav />
-          <Hero />
+      <Hero />
 
-          <About />
-          <Interests />
-          <Project />
-          <Contact />
-        </main>
-      </div>
-      <Footer />
+      <About />
+      <Interests />
+      <Project />
+      <Contact />
+
       <script
         data-name="BMC-Widget"
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
@@ -38,6 +33,6 @@ export default function Home() {
         data-x_margin="18"
         data-y_margin="18"
       ></script>
-    </div>
+    </>
   );
 }
