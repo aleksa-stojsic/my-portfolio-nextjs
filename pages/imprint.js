@@ -11,6 +11,7 @@ export default function Imprint() {
       <div className={styles.imprintPage}>
         <div className={styles.imprintText}>
           <h1>Imprint</h1>
+          <br />
           <h2>Information:</h2>
           <p>
             Aleksa Stojšić

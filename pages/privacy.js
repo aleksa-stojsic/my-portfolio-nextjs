@@ -11,6 +11,7 @@ export default function Privacy() {
 
         <div className={styles.privacyText}>
           <h1>Privacy Policy</h1>
+          <br />
           <p>
             Your privacy is important to us. It is my, Aleksa Stojsic, policy to
             respect your privacy regarding any information we may collect from
