@@ -21,6 +21,8 @@ const Nav = () => {
           Contact
         </a>
       </div>
+
+      <style jsx>{``}</style>
     </nav>
   );
 };
