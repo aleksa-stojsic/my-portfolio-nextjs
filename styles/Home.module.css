@@ -750,6 +750,10 @@
     color: #dcdcdc;
   }
 
+  .logo a {
+    color: white;
+  }
+
   .aboutMeTitle {
     color: #dcdcdc;
   }
