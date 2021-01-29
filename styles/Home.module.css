@@ -333,9 +333,13 @@
   -o-border-radius: 1rem;
 }
 
-.aboutImage:hover {
+.aboutImg:hover {
   transform: translate3d(0px, -0.125rem, 0px);
   filter: grayscale(50%) contrast(1) brightness(90%);
+  -webkit-transform: translate3d(0px, -0.125rem, 0px);
+  -moz-transform: translate3d(0px, -0.125rem, 0px);
+  -ms-transform: translate3d(0px, -0.125rem, 0px);
+  -o-transform: translate3d(0px, -0.125rem, 0px);
 }
 
 .interests {

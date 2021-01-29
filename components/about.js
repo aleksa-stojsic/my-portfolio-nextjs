@@ -36,7 +36,7 @@ const About = () => {
       </div>
       <div className={styles.aboutImage}>
         <Image
-          className={styles.avatarImg}
+          className={styles.aboutImg}
           src="/me.webp"
           alt="Picture of the author"
           width={288}
