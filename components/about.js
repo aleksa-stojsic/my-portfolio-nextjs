@@ -34,7 +34,7 @@ const About = () => {
       <div className={styles.aboutImage}>
         <Image
           className={styles.aboutImg}
-          src="https://res.cloudinary.com/dgsozud9i/image/upload/v1612452202/me_mixzra.webp"
+          src="/me.png"
           alt="Picture of the author"
           width={288}
           height={432}
