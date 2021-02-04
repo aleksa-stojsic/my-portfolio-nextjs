@@ -111,4 +111,9 @@
     background-color: rgb(250, 250, 250);
     color: rgb(18, 18, 18);
   }
+
+  .next {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+  }
 }

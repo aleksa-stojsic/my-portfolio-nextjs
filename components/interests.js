@@ -98,7 +98,7 @@ const Interest = () => {
               </div>{' '}
               SQL/NoSQL Database
             </div>
-            <div className={styles.interestBtn}>
+            {/* <div className={styles.interestBtn}>
               <div className={styles.interestIco}>
                 <Image
                   className={styles.interestImg}
@@ -109,6 +109,18 @@ const Interest = () => {
                 />
               </div>{' '}
               Gatsby.js
+            </div> */}
+            <div className={styles.interestBtn}>
+              <div className={styles.interestIco}>
+                <Image
+                  className={`${styles.interestImg} ${styles.next}`}
+                  src="/icons/next.png"
+                  alt="Picture of the author"
+                  width={30}
+                  height={20}
+                />
+              </div>{' '}
+              Next.js
             </div>
             <div className={styles.interestBtn}>
               <div className={styles.interestIco}>
