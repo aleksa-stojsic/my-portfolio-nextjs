@@ -11,7 +11,12 @@ const Contact = () => {
           <span className="underline">new stuff</span>!
         </p>
         <div className={styles.avatar}>
-          <Image src="/contact.webp" alt="Avatar" width={140} height={140} />
+          <Image
+            src="https://res.cloudinary.com/dgsozud9i/image/upload/v1612452202/contact_buf8tg.webp"
+            alt="Avatar"
+            width={140}
+            height={140}
+          />
         </div>
         <strong>Aleksa Stojsic</strong>
         <a href="mailto:stojsic.aleksa@gmail.com">
