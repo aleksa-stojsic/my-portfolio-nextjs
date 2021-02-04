@@ -77,3 +77,233 @@ hr {
 p {
   font-size: 1rem;
 }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 24px;
+}
+
+.social a {
+  height: auto;
+  padding: 0.3rem 1.25rem;
+  transition: all 0.1s ease-out 0s;
+  font-size: 0.95rem;
+  font-weight: 500;
+  width: auto;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%) repeat
+    scroll right bottom / 205% 100%;
+  background-position-x: right;
+  background-position-y: bottom;
+  border: 0.125rem solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  margin: 0 1rem 0 0;
+}
+
+.social > a:hover {
+  background-position: left bottom;
+  color: rgb(255, 255, 255);
+}
+
+.social > a:hover svg {
+  filter: invert(1);
+}
+
+.social > a svg {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: -0.05rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .social > a {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 62.5rem;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+.underline:hover {
+  box-shadow: rgb(205, 243, 225) 0px -1rem 0px inset;
+}
+.underline {
+  box-shadow: rgb(205, 243, 225) 0px -0.5rem 0px inset;
+  transition: box-shadow 0.3s ease-out 0s;
+}
+
+@media only screen and (max-width: 992px) {
+  .main {
+    align-items: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+  .social a {
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to right, rgb(250, 250, 250) 50%, rgb(18, 18, 18) 50%)
+      repeat scroll right bottom / 205% 100%;
+    border: 0.125rem solid rgb(250, 250, 250);
+  }
+
+  .social > a:hover {
+    color: rgb(28, 28, 28);
+  }
+
+  .social > a svg {
+    filter: invert(1);
+  }
+
+  .social > a:hover svg {
+    filter: invert(0);
+    -webkit-filter: invert(0);
+  }
+
+  .aboutMeTitle {
+    color: #dcdcdc;
+  }
+
+  .underline:hover {
+    box-shadow: rgb(42, 41, 38) 0px -1rem 0px inset;
+  }
+  .underline {
+    box-shadow: rgb(42, 41, 38) 0px -0.5rem 0px inset;
+    transition: box-shadow 0.3s ease-out 0s;
+  }
+
+  .body {
+    background-color: #121212;
+    color: #dcdcdc;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .logo a {
+    color: white;
+  }
+
+  .body > h1 {
+    color: #fafafa;
+  }
+}

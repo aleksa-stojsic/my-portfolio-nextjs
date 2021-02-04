@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Interests.module.css';
 import Image from 'next/image';
 import { Fragment, useEffect, useState } from 'react';
 
@@ -9,7 +9,7 @@ const Interest = () => {
 
   return (
     <section id="skills" className={styles.skills}>
-      <h3 className={styles.aboutMeTitle}>Interests & Skills</h3>
+      <h3 className="aboutMeTitle">Interests & Skills</h3>
 
       <div className={styles.interests}>
         <div className={styles.interestBtn}>

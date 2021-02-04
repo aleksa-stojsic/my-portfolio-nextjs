@@ -1,11 +1,11 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Projects.module.css';
 import Image from 'next/image';
 
 const Project = () => {
   return (
     <section id="projects" className={styles.projects}>
       <div>
-        <h3 className={styles.aboutMeTitle}>Projects</h3>
+        <h3 className="aboutMeTitle">Projects</h3>
       </div>
       <div className={styles.allProjects}>
         <div className={styles.project}>
@@ -14,9 +14,9 @@ const Project = () => {
             <div className={styles.projectTitle}>Project #1</div>
             <p>Working on it...</p>
             <div className={styles.projectTags}>
-              <span className={styles.underline}>HTML</span>
-              <span className={styles.underline}>CSS</span>
-              <span className={styles.underline}>JavaScript</span>
+              <span className="underline">HTML</span>
+              <span className="underline">CSS</span>
+              <span className="underline">JavaScript</span>
             </div>
             <div className={styles.projectLinks}>
               <a
@@ -102,9 +102,9 @@ const Project = () => {
             <div className={styles.projectTitle}>Project #2</div>
             <p>Working on it...</p>
             <div className={styles.projectTags}>
-              <span className={styles.underline}>HTML</span>
-              <span className={styles.underline}>CSS</span>
-              <span className={styles.underline}>JavaScript</span>
+              <span className="underline">HTML</span>
+              <span className="underline">CSS</span>
+              <span className="underline">JavaScript</span>
             </div>
             <div className={styles.projectLinks}>
               <a
@@ -172,9 +172,9 @@ const Project = () => {
             <div className={styles.projectTitle}>Project #3</div>
             <p>Working on it...</p>
             <div className={styles.projectTags}>
-              <span className={styles.underline}>HTML</span>
-              <span className={styles.underline}>CSS</span>
-              <span className={styles.underline}>JavaScript</span>
+              <span className="underline">HTML</span>
+              <span className="underline">CSS</span>
+              <span className="underline">JavaScript</span>
             </div>
             <div className={styles.projectLinks}>
               <a

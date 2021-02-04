@@ -1,0 +1,20 @@
+.privacyPage {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.privacyText {
+  width: 100%;
+  max-width: 36rem;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .privacyText > h1 {
+    color: #fafafa;
+  }
+}

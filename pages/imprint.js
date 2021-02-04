@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Imprint.module.css';
 import Head from 'next/head';
 
 export default function Imprint() {

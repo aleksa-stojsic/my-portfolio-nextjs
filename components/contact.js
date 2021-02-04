@@ -1,23 +1,23 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Contact.module.css';
 import Image from 'next/image';
 
 const Contact = () => {
   return (
     <section id="contact" className={styles.contact}>
-      <h3 className={styles.aboutMeTitle}>Contact me</h3>
+      <h3 className="aboutMeTitle">Contact me</h3>
       <div className={styles.contactWrap}>
         <p>
           Feel free to reach out to me at any time, I am always interested in{' '}
-          <span className={styles.underline}>new stuff</span>!
+          <span className="underline">new stuff</span>!
         </p>
         <div className={styles.avatar}>
           <Image src="/contact.webp" alt="Avatar" width={140} height={140} />
         </div>
         <strong>Aleksa Stojsic</strong>
         <a href="mailto:stojsic.aleksa@gmail.com">
-          <span className={styles.underline}>stojsic.aleksa@gmail.com</span>
+          <span className="underline">stojsic.aleksa@gmail.com</span>
         </a>
-        <div className={styles.social}>
+        <div className="social">
           <a href="https://github.com/aleksa-stojsic" target="_noblank">
             <svg
               version="1.1"

@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Hero.module.css';
 
 const Hero = () => {
   return (
@@ -8,10 +8,10 @@ const Hero = () => {
 
       <h2 className={styles.heroSubTitle}>
         I design and build{' '}
-        <span className={styles.underline}>things for the web.</span>
+        <span className="underline">things for the web.</span>
       </h2>
       <p>Computer Science Student and Web Developer. Based in Belgrade.</p>
-      <div className={styles.social}>
+      <div className="social">
         <a href="https://github.com/aleksa-stojsic" target="_noblank">
           <svg
             version="1.1"
