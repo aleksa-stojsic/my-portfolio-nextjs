@@ -14,7 +14,7 @@ const Nav = () => {
       <nav className={styles.mainNav}>
         <div className={styles.logo}>
           <Link href="/">
-            <a>as.</a>
+            <a className={styles.logoA}>as.</a>
           </Link>
         </div>
 
