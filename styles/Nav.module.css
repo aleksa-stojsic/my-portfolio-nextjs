@@ -170,11 +170,11 @@
     color: #dcdcdc;
   }
 
-  .topLinks a:hover {
+  .logoA {
     color: white;
   }
 
-  .logoA {
+  .topLinks a:hover {
     color: white;
   }
 
@@ -183,11 +183,15 @@
     color: rgb(250, 250, 250);
     border: 0.125rem solid rgb(250, 250, 250);
     transition: all 20ms ease-out 0s;
+    -webkit-transition: all 20ms ease-out 0s;
+    -moz-transition: all 20ms ease-out 0s;
+    -ms-transition: all 20ms ease-out 0s;
+    -o-transition: all 20ms ease-out 0s;
   }
 
   .contactBtn:hover {
     background: rgb(250, 250, 250) none repeat scroll 0% 0%;
-    color: rgb(18, 18, 18);
+    color: rgb(18, 18, 18) !important;
   }
 
   .bar1,

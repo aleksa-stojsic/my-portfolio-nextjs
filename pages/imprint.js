@@ -5,7 +5,7 @@ export default function Imprint() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <div className={styles.imprintPage}>
