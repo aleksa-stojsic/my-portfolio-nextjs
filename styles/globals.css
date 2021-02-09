@@ -119,6 +119,10 @@ p {
   margin-bottom: -0.05rem;
 }
 
+.bmc-widget-container #openPayModal {
+  background: #6dc1a3 !important;
+}
+
 @media only screen and (max-width: 768px) {
   .social > a {
     margin: 0;
@@ -279,7 +283,7 @@ p {
   }
 
   .aboutMeTitle {
-    color: #dcdcdc;
+    color: #ffff;
   }
 
   .underline:hover {

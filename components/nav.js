@@ -1,6 +1,7 @@
 import styles from '../styles/Nav.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useDarkMode } from 'next-dark-mode';
 
 const Nav = () => {
   const [isActive, setActive] = useState('false');
