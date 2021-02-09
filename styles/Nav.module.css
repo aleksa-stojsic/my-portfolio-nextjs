@@ -21,6 +21,10 @@
   flex-direction: row;
 }
 
+.topLinks a:hover {
+  color: white;
+}
+
 .contactBtn {
   width: auto;
   height: auto;
