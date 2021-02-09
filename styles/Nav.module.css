@@ -21,10 +21,6 @@
   flex-direction: row;
 }
 
-.topLinks a:hover {
-  color: white;
-}
-
 .contactBtn {
   width: auto;
   height: auto;
@@ -172,6 +168,10 @@
 
   .logo {
     color: #dcdcdc;
+  }
+
+  .topLinks a:hover {
+    color: white;
   }
 
   .logoA {
